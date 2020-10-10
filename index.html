@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
+    <title>coffee</title>
+</head>
+<body>
+    <div class="hero">
+        <div class="nav-bar">
+            <div class="nav-logo">
+                <img src="img/logo.png" alt="">
+            </div>
+            <div class="nav-link" id="nav-link">
+                <i class="fa fa-close" onclick="closeMenu()"></i>
+                <ul>
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="about.html"><li>About</li></a>
+                    <a href="recipe.html"><li>Recipe</li></a>
+                </ul>
+               <a href="signup.html"> <button type="button" class="btn">SIGN UP</button></a>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </div>
+        <div class="banner-title">
+            <h1> Life begins after <span> coffee</span></h1>
+            <a href="https://blog.warriorcoffee.com/blog/12-health-benefits-and-6-disadvantages-of-coffee-smashing-it" target="_blank" > <button type="button" class="btn">EXPLORE </button></a>
+        </div>
+        <div class="vertical-bar">
+            <div class="social-icon">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true" > </i></a> 
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"  ></i></a>
+                <a href="https://www.twitter.com/" target="_blank"> <i class="fa fa-twitter" aria-hidden="true" > </i></a> 
+                 <a href="https://www.pinterest.com/" target="_blank"> <i class="fa fa-pinterest"></i></a> 
+            </div>
+
+        </div>
+
+    </div>
+    <script>
+        var show =document.getElementById("nav-link");
+        function showMenu()
+        {
+            show.style.right="0";
+        }
+        function closeMenu()
+        {
+            show.style.right="-200px";
+        }
+    </script>
+</body>
+</html>

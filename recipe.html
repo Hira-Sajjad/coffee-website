@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
+    <title>coffee</title>
+</head>
+<body>
+    <div class="hero">
+        <div class="nav-bar">
+            <div class="nav-logo">
+                <img src="img/logo.png" alt="">
+            </div>
+            <div class="nav-link" id="nav-link">
+                <i class="fa fa-close" onclick="closeMenu()"></i>
+                <ul>
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="about.html"><li>About</li></a>
+                    <a href="recipe.html"><li>Recipe</li></a>
+                </ul>
+                <a href="signup.html"> <button type="button" class="btn">SIGN UP</button></a>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </div>
+        <div class="banner-title">
+            <h1> How to make <span>Hot coffee</span></h1>
+            <ol>
+                <li>In a cup take 1.5 teaspoons instant coffee. Also, add 1.5 tablespoons sugar or add as per taste.</li>
+                <li>Add 3 tablespoons hot boiling water. You can heat water in an electric kettle or in a small pan. ¼ cup of water can also be added.</li>
+                <li>First mix the coffee and sugar with water.</li>
+                <li>Then begin to stir briskly and beat coffee for 3 to 4 minutes. You can take a break after 1 to 2 minutes and then continue if your hands start aching.</li>
+                <li>Beat the coffee till its color lightens and you see a frothy layer on top.</li>
+                <li>Then take 1 cup milk in a small but heavy saucepan and on a medium to medium-high flame boil it.</li>
+                <li>Let the milk come to a boil.</li>
+                <li>Now pour the milk in a glass jar or a thermos flask.</li>
+                <li>do not use any plastic bottle or jar. You can use a steel bottle also. A glass jar with a handle helps while shaking as the milk is hot.</li>
+                <li>Now shake the jar vigorously for 1 to 2 minutes. Alternatively, to get the froth on milk, you can also use a handheld frother. Milk can be blended in a blender also.</li>
+                <li>There should be a good layer of frothy foam on the milk.</li>
+                <li>Here’s the coffee brew in the cup still with foam on top.</li>
+                <li>Pour the foamy milk in the cup.</li>
+                <li>After adding ⅓ or ½ of the milk to the coffee, stir with a spoon. You can even move the cup so that the milk get mixed with the coffee.</li>
+                <li>Pour remaining milk.</li>
+                <li>Add the frothy layer also.</li>
+                <li>Serve the frothy cafe style hot coffee straightway.</li>
+                <li>You can even sprinkle some cinnamon powder or cocoa powder on top. Enjoy this homemade cafe style hot coffee.</li>
+            </ol>
+            <a href="https://blog.warriorcoffee.com/blog/12-health-benefits-and-6-disadvantages-of-coffee-smashing-it" target="_blank" > <button type="button" class="btn">EXPLORE </button></a>
+        </div>
+        <div class="vertical-bar">
+            <div class="social-icon">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true" > </i></a> 
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"  ></i></a>
+                <a href="https://www.twitter.com/" target="_blank"> <i class="fa fa-twitter" aria-hidden="true" > </i></a> 
+                 <a href="https://www.pinterest.com/" target="_blank"> <i class="fa fa-pinterest"></i></a> 
+            </div>
+
+        </div>
+
+    </div>
+    <script>
+        var show =document.getElementById("nav-link");
+        function showMenu()
+        {
+            show.style.right="0";
+        }
+        function closeMenu()
+        {
+            show.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
